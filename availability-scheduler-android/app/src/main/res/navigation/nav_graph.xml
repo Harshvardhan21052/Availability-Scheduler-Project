@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Auth -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.scheduler.app.ui.auth.LoginFragment"
+        android:label="Sign In"
+        tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.scheduler.app.ui.auth.SignupFragment"
+        android:label="Create Account"
+        tools:layout="@layout/fragment_signup">
+        <action android:id="@+id/action_signupFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Home -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.scheduler.app.ui.home.HomeFragment"
+        android:label="Scheduler"
+        tools:layout="@layout/fragment_home">
+        <action android:id="@+id/action_homeFragment_to_myAvailabilityFragment"
+            app:destination="@id/myAvailabilityFragment" />
+        <action android:id="@+id/action_homeFragment_to_commonAvailabilityFragment"
+            app:destination="@id/commonAvailabilityFragment" />
+        <action android:id="@+id/action_homeFragment_to_searchUsersFragment"
+            app:destination="@id/searchUsersFragment" />
+        <action android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Features -->
+    <fragment
+        android:id="@+id/myAvailabilityFragment"
+        android:name="com.scheduler.app.ui.availability.MyAvailabilityFragment"
+        android:label="My Busy Slots"
+        tools:layout="@layout/fragment_my_availability" />
+
+    <fragment
+        android:id="@+id/commonAvailabilityFragment"
+        android:name="com.scheduler.app.ui.common.CommonAvailabilityFragment"
+        android:label="Common Availability"
+        tools:layout="@layout/fragment_common_availability" />
+
+    <fragment
+        android:id="@+id/searchUsersFragment"
+        android:name="com.scheduler.app.ui.search.SearchUsersFragment"
+        android:label="Search Users"
+        tools:layout="@layout/fragment_search_users" />
+
+</navigation>

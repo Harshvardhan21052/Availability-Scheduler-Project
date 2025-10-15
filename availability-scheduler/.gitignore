@@ -1,0 +1,31 @@
+# Compiled output
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.eclipse/
+*.classpath
+*.project
+*.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven wrapper (optional — delete if you add mvnw)
+.mvn/
+
+# Logs
+*.log
+logs/
+
+# Spring Boot config overrides (keep secrets out of VCS)
+application-local.properties
+application-prod.properties
