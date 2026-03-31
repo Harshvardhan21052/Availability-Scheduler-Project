@@ -5,13 +5,13 @@ A full-stack scheduling application that allows users to mark their unavailable 
 ---
 ## Screenshots
 
-| Login | Home Screen | Add Slot | Slot Added |
+| Login | Home Screen | My Busy Slots | Add Slot |
 |----------|----------|----------|----------|
-| <img src="https://github.com/user-attachments/assets/edeba8be-9106-4734-9fcf-1b0b0a2d6ed6" width="200"/> | <img src="https://github.com/user-attachments/assets/4d89f1d3-e808-460e-8e56-5c20534d589e" width="200"/> | <img src="https://github.com/user-attachments/assets/7316c0f0-c944-4b82-9b3f-8540c5bb0c6d" width="200"/> | <img src="https://github.com/user-attachments/assets/cf1de0b1-daa7-437e-bb9b-bd92b5496222" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/edeba8be-9106-4734-9fcf-1b0b0a2d6ed6" width="200"/> | <img src="https://github.com/user-attachments/assets/4d89f1d3-e808-460e-8e56-5c20534d589e" width="200"/> | <img src="https://github.com/user-attachments/assets/ca99a106-4753-4e2c-8b03-7a483788587e" width="200"/> | <img src="https://github.com/user-attachments/assets/7316c0f0-c944-4b82-9b3f-8540c5bb0c6d" width="200"/> |
 
-| My Busy Slots | Find Availabilty | Availability |
+| Slot Added | Find Availability | Availability |
 |----------|----------|----------|
-| <img src="https://github.com/user-attachments/assets/ca99a106-4753-4e2c-8b03-7a483788587e" width="200"/> | <img src="https://github.com/user-attachments/assets/5c237f26-7363-4f2b-96fe-160ff5338a14" width="200"/> | <img src="https://github.com/user-attachments/assets/56d5ff1d-e77a-48b0-8b5c-725c5d7ac589" width="200"/> |
+| <img src="https://github.com/user-attachments/assets/cf1de0b1-daa7-437e-bb9b-bd92b5496222" width="200"/> | <img src="https://github.com/user-attachments/assets/5c237f26-7363-4f2b-96fe-160ff5338a14" width="200"/> | <img src="https://github.com/user-attachments/assets/56d5ff1d-e77a-48b0-8b5c-725c5d7ac589" width="200"/> |
 
 ---
 
