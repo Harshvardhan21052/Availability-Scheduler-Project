@@ -1,6 +1,7 @@
 # Availability Scheduler
 
-A full-stack scheduling application that allows users to mark their unavailable time slots and find common free windows across multiple people. Built with a **Spring Boot REST API** backend and a **native Android** client following industry-standard architecture patterns.
+Coordinating a meeting time across a group almost always ends up as a long WhatsApp thread — everyone throws out their availability in different formats, someone misses a message, and the back-and-forth takes longer than the meeting itself. Availability Scheduler eliminates that entirely. Each person marks the slots they are busy on a given day, and the app automatically computes every window where the entire group is simultaneously free — no thread, no guessing, no back-and-forth.
+Built with a **Spring Boot REST API** backend and a native **Android** client following industry-standard architecture patterns.
 
 ---
 ## Screenshots
