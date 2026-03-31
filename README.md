@@ -3,6 +3,7 @@
 A full-stack scheduling application that allows users to mark their unavailable time slots and find common free windows across multiple people. Built with a **Spring Boot REST API** backend and a **native Android** client following industry-standard architecture patterns.
 
 ---
+<img width="1080" height="2408" alt="Image" src="https://github.com/user-attachments/assets/75d1f53e-1329-4973-9ccd-cb8edc3b0bf6" />
 
 ## Tech Stack
 
